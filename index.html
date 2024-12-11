@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px span2 200px;
+    gap: 20px;
+}
+
+.third_row {
+ grid-area: 3 / 1 / 4 / 4;
+ background-color: #FFF6E9;
+}
+
+
+body {
+    background-color: coral;
+}
+
+.text {
+    color: #4335A7;
+}
+.headline {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+</style>
+<body>
+    <div class="top-container">
+        <div class="headline text"><h1>Lorem ipsum dolor sit amet</h1></div>
+        <div class="headline text"><h2>Lorem ipsum dolor sit amet</h2>
+        </h2></div>
+    </div>
+    <div class="grid-container">
+        <div class="image"><img src="https://picsum.photos/200" alt="random image"></div>
+        <div class="image"><img src="https://picsum.photos/200" alt="random image"></div>
+        <div class="image"><img src="https://picsum.photos/200" alt="random image"></div>
+        
+        <div class="text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper purus vel enim tincidunt mollis. Sed aliquam justo sem, a ornare enim venenatis et. Nulla pharetra tincidunt aliquet. Sed a risus lorem. Ut eu est dictum, vehicula elit ac, placerat diam. Vivamus convallis enim vel lectus accumsan, ut ullamcorper erat venenatis. Proin ullamcorper nec purus quis feugiat. Proin sed elit eget nibh semper venenatis at nec sapien. Morbi dignissim, arcu in malesuada tempor, massa nunc rhoncus tortor, ac efficitur odio enim ac ligula. Fusce pretium dui libero, gravida volutpat massa molestie eget. Nulla lorem sem, suscipit et scelerisque sit amet, rutrum id eros.
+
+        </p></div>
+        <div class="text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper purus vel enim tincidunt mollis. Sed aliquam justo sem, a ornare enim venenatis et. Nulla pharetra tincidunt aliquet. Sed a risus lorem. Ut eu est dictum, vehicula elit ac, placerat diam. Vivamus convallis enim vel lectus accumsan, ut ullamcorper erat venenatis. Proin ullamcorper nec purus quis feugiat. Proin sed elit eget nibh semper venenatis at nec sapien. Morbi dignissim, arcu in malesuada tempor, massa nunc rhoncus tortor, ac efficitur odio enim ac ligula. Fusce pretium dui libero, gravida volutpat massa molestie eget. Nulla lorem sem, suscipit et scelerisque sit amet, rutrum id eros.
+
+        </p></div>
+        <div class="text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper purus vel enim tincidunt mollis. Sed aliquam justo sem, a ornare enim venenatis et. Nulla pharetra tincidunt aliquet. Sed a risus lorem. Ut eu est dictum, vehicula elit ac, placerat diam. Vivamus convallis enim vel lectus accumsan, ut ullamcorper erat venenatis. Proin ullamcorper nec purus quis feugiat. Proin sed elit eget nibh semper venenatis at nec sapien. Morbi dignissim, arcu in malesuada tempor, massa nunc rhoncus tortor, ac efficitur odio enim ac ligula. Fusce pretium dui libero, gravida volutpat massa molestie eget. Nulla lorem sem, suscipit et scelerisque sit amet, rutrum id eros.
+
+        </p></div>
+
+        <div class="third_row text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Phasellus semper purus vel enim tincidunt mollis. Sed aliquam justo sem, a ornare enim venenatis et. 
+            Nulla pharetra tincidunt aliquet. Sed a risus lorem. Ut eu est dictum, vehicula elit ac, placerat diam. Vivamus 
+            convallis enim vel lectus accumsan, ut ullamcorper erat venenatis. Proin ullamcorper nec purus quis feugiat. Proin sed 
+            elit eget nibh semper venenatis at nec sapien. Morbi dignissim, arcu in malesuada tempor, massa nunc rhoncus tortor, ac 
+            efficitur odio enim ac ligula. Fusce pretium dui libero, gravida volutpat massa molestie eget. Nulla lorem sem, suscipit 
+            et scelerisque sit amet, rutrum id eros.</p>
+        </div>
+    </div>
+   
+
+</body>
+</html>
